@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  
+}
+
+
+
+
+body {
+  background-color: #242424;
+  
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#tabuleiro{
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 1.0em;
+  font-size: 1.5em;
+  font-weight: 200;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer; 
+  transition: border-color 0.25s;
+  align-items: center;
+}
+
+#historico{
+  place-content: right;
+  display: flex;
+  border-radius: 10px;
+  background-color: black ;
+  border: transparent;
+  padding: 15px;
+  font-size: medium;
+  cursor: pointer;
+  font-family: inherit;
+  margin-top: 5px;
+  display: flex;
+  
+}
+
+
+
+
+button:hover {
+  border-color: #646cff;
+}
+
+
+
+  
